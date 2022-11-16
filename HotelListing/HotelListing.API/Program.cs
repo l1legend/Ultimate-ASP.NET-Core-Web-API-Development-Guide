@@ -17,6 +17,7 @@ OptionsBuilderConfigurationExtensions.AddPolicy("AllowAll",
     .AllowAnyMethod());
 });
 
+//view logs
 builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration));
 
 var app = builder.Build();

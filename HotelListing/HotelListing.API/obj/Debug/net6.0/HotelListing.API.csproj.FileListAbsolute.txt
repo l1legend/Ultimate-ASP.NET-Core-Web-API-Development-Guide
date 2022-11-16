@@ -25,3 +25,16 @@ C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\
 C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\obj\Debug\net6.0\HotelListing.API.pdb
 C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\obj\Debug\net6.0\HotelListing.API.genruntimeconfig.cache
 C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\obj\Debug\net6.0\ref\HotelListing.API.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.Expressions.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
