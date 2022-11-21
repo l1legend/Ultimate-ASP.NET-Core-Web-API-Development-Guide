@@ -44,7 +44,7 @@ namespace HotelListing.API.Controllers
         {
             if (id != country.Id)
             {
-                return BadRequest();
+                return BadRequest("Invalid Record Id");
             }
 
             _context.Entry(country).State = EntityState.Modified;
@@ -65,7 +65,7 @@ namespace HotelListing.API.Controllers
                 }
             }
 
-            return NoContent();
+            return NoContent(); //200 response
         }
 
         // POST: api/Countries
