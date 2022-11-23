@@ -75,11 +75,6 @@ namespace HotelListing.API.Controllers
         [HttpPost]
         public async Task<ActionResult<Country>> PostCountry(CreateCountryDto createCountryDto)
         {
-            var countryOld = new Country
-            {
-                Name = createCountryDto.Name,
-                ShortName = createCountryDto.ShortName,
-            };
             var country = _mapper.Map<Country>(createCountryDto);
             
             _context.Countries.Add(country);
