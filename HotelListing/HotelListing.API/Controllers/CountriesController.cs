@@ -1,4 +1,5 @@
-﻿using HotelListing.API.Data;
+﻿using AutoMapper;
+using HotelListing.API.Data;
 using HotelListing.API.Models.Country;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,8 +11,9 @@ namespace HotelListing.API.Controllers
     public class CountriesController : ControllerBase
     {
         private readonly HotelListingDbContext _context;
+        private readonly IMapper _mapper;
 
-        public CountriesController(HotelListingDbContext context)
+        public CountriesController(HotelListingDbContext context, IMapper mapper)
         {
             _context = context;
         }
@@ -71,13 +73,15 @@ namespace HotelListing.API.Controllers
 
         // POST: api/Countries
         [HttpPost]
-        public async Task<ActionResult<Country>> PostCountry(CreateCountryDto createCountry)
+        public async Task<ActionResult<Country>> PostCountry(CreateCountryDto createCountryDto)
         {
-            var country = new Country
+            var countryOld = new Country
             {
-                Name = createCountry.Name,
-                ShortName = createCountry.ShortName,
+                Name = createCountryDto.Name,
+                ShortName = createCountryDto.ShortName,
             };
+            var country = _mapper.Map<Country>(createCountryDto);
+            
             _context.Countries.Add(country);
             await _context.SaveChangesAsync();
 
