@@ -273,3 +273,5 @@ C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\
 C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\obj\Debug\net6.0\HotelListing.API.genruntimeconfig.cache
 C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\obj\Debug\net6.0\ref\HotelListing.API.dll
 C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\mintw\Documents\GitHub\Ultimate-ASP.NET-Core-Web-API-Development-Guide\HotelListing\HotelListing.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
